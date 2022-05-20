@@ -25,10 +25,22 @@ h1 {
   vertical-align: top;
 
   /* Your code here */
+  display: inline-block;
+  border-style: dotted;
+  border-color: black;
+  border-width: 4px;
+  background-color: rgb(137, 120, 169);
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  padding: 20px;
 }
 
 .alternate {
   /* Your code here */
+  width: 160px;
+  height: 160px;
+  padding: 0px;
 }
 
 /* Phase 3 */
@@ -46,6 +58,10 @@ h1 {
   font-size: larger;
 
   /* Your code here */
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
 }
 
 .attribution {
@@ -53,4 +69,6 @@ h1 {
   font-style: italic;
 
   /* Your code here */
+  display: block;
+  
 }
